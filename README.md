@@ -42,4 +42,5 @@ Licença
 Este projeto é de uso educacional e ainda não possui uma licença definida.
 
 AUTORES
+
 Murilo Almeida Martins; Pedro Dias Amaral; Rafael Taine Manteli de Aguiar; Thais Barbosa Carneiro; Victor Hugo dos Santos Silva; Yuri Aguilera Proença.
