@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>LiuBoo - Inglês Divertido para Crianças</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        :root, body, h1, h2, h3, h4, h5, h6, p, a, span, div, .btn {
+            font-family: 'Baloo 2', cursive !important;
+        }
+        p {
+            letter-spacing: 0.3px;
+        }
+        .navbar.sticky-top .logo-img {
+            filter: brightness(0) saturate(100%) invert(56%) sepia(15%) saturate(1637%) hue-rotate(222deg) brightness(91%) contrast(87%);
+        }
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <div class="container-xxl bg-white p-0">
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Carregando...</span>
+            </div>
+        </div>
+        <div class="container-xxl position-relative p-0" id="home">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="img/logo.png" alt="Logo LiuBoo" class="logo-img" style="height: 60px;"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto py-0">
+                        <a href="#home" class="nav-item nav-link active">Início</a>
+                        <a href="#feature" class="nav-item nav-link">Recursos</a>
+                        <a href="#pricing" class="nav-item nav-link">Planos</a>
+                        <a href="#review" class="nav-item nav-link">Depoimentos</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-xxl bg-primary hero-header">
+                <div class="container px-lg-5">
+                    <div class="row g-5">
+                        <div class="col-lg-8 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated slideInDown">Aqui seu filho aprende inglês brincando!</h1>
+                            <p class="text-white pb-3 animated slideInDown fs-5">Transforme o tempo de tela em aprendizado com nossa metodologia gamificada e segura para crianças de 6 a 12 anos.</p>
+                            <a href="#contact" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Fale Conosco</a>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="owl-carousel screenshot-carousel">
+                                <img class="img-fluid" src="img/tela1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5" id="feature">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-bold">O que seu filho vai aprender?</h5>
+                    <h1 class="mb-5">Recursos Incríveis</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-gamepad text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Lições Interativas</h5>
+                            <p class="m-0">Jogos e desafios que ensinam vocabulário e pronúncia de forma natural, transformando o estudo em pura diversão.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-book-open text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Modo História</h5>
+                            <p class="m-0">Aprender vivendo uma aventura! Seu filho segue uma narrativa envolvente onde o inglês é a chave para avançar nos capítulos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-fire text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Ofensiva Diária</h5>
+                            <p class="m-0">Criando o hábito de estudar. O sistema de ofensiva incentiva a prática diária, transformando a constância em conquistas visuais.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-gem text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Recompensas e Avatares</h5>
+                            <p class="m-0">Motivação a cada conquista. Desbloqueie avatares únicos e itens especiais ao completar lições, celebrando o progresso.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-skull text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Oponentes Desafiadores</h5>
+                            <p class="m-0">Teste de conhecimento emocionante! Batalhas contra "chefões" divertidos que desafiam o que foi aprendido para passar de fase.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded p-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                <i class="fa fa-comment-dots text-white fs-4"></i>
+                            </div>
+                            <h5 class="mb-3">Vocabulário Essencial</h5>
+                            <p class="m-0">Do básico à fluência. Foco em palavras e frases do dia a dia, construindo uma base sólida para a comunicação desde cedo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-4 text-primary-gradient fw-bold">Conheça nosso projeto</h1>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="position-relative rounded overflow-hidden shadow-lg border border-5 border-white bg-white">
+                            <div class="ratio ratio-16x9">
+                                <video controls>
+                                    <source src="img/pitch.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                        <p class="text-center mt-4 fs-5 text-muted">Video Pitch LiuBoo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-bold">Interface</h5>
+                        <h1 class="mb-4">Interface amigável feita para dedinhos pequenos</h1>
+                        <p class="mb-4">Nosso design foi pensado para que crianças a partir de 6 anos consigam navegar sozinhas. Cores vibrantes, botões grandes e feedback auditivo constante.</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Navegação intuitiva e sem textos complexos</p>
+                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Ambiente seguro</p>
+                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Personagens carismáticos que guiam o uso</p>
+                    </div>
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/home.png" alt="">
+                            <img class="img-fluid" src="img/story.png" alt="">
+                            <img class="img-fluid" src="img/tela2.png" alt="">
+                            <img class="img-fluid" src="img/Lessonanimal.png" alt="">
+                            <img class="img-fluid" src="img/Lessonfox.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-start wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="owl-carousel screenshot-carousel">
+                            <img class="img-fluid" src="img/TelaMãe.png" alt="">
+                            <img class="img-fluid" src="img/config.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-secondary-gradient fw-bold">Área dos Pais</h5>
+                        <h1 class="mb-4">Controle total e acompanhamento do progresso</h1>
+                        <p class="mb-4">Sabemos que a segurança e o aprendizado do seu filho são prioridade. Por isso, criamos um painel exclusivo para você acompanhar cada passo da jornada.</p>
+                        
+                        <div class="d-flex mb-3">
+                            <div class="btn-sm-square bg-primary-gradient rounded-circle me-3">
+                                <i class="fa fa-tasks text-white"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Relatórios de Desempenho</h6>
+                                <p class="mb-0 text-muted">Veja quais palavras ele aprendeu e onde precisa melhorar.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-3">
+                            <div class="btn-sm-square bg-secondary-gradient rounded-circle me-3">
+                                <i class="fa fa-chart-line text-white"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Controle de Progresso</h6>
+                                <p class="mb-0 text-muted">Veja o quanto seu filho progrediu em cada etapa.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex mb-3">
+                            <div class="btn-sm-square bg-primary-gradient rounded-circle me-3">
+                                <i class="fa fa-users text-white"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Múltiplos Perfis</h6>
+                                <p class="mb-0 text-muted">Gerencie o progresso dos seus filhos em uma única conta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-bold">Passo a Passo</h5>
+                    <h1 class="mb-5">3 Passos para Começar</h1>
+                </div>
+                <div class="row gy-5 gx-4 justify-content-center">
+                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                                <i class="fa fa-download fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4 mb-3">1. Baixe o App</h5>
+                            <p class="mb-0">Disponível no Google Play. O download é rápido e gratuito.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                                <i class="fa fa-child fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4 mb-3">2. Crie o Perfil</h5>
+                            <p class="mb-0">Insira o seu nome e idade e do seu filho para personalizarmos o nível de dificuldade.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                                <i class="fa fa-gamepad fa-3x text-white"></i>
+                            </div>
+                            <h5 class="mt-4 mb-3">3. Comece a Aventura</h5>
+                            <p class="mb-0">Pronto! Seu filho já pode começar a primeira lição e ganhar recompensas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/liusviado.png">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <h5 class="text-primary-gradient fw-bold">Download</h5>
+                        <h1 class="mb-4">Baixe a Versão Mais Recente</h1>
+                        <p class="mb-4">Garanta acesso às novas histórias, personagens exclusivos e correção de pronúncia aprimorada. O LiuBoo está sempre evoluindo!</p>
+                        <div class="row g-4">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                <a href="" class="d-flex bg-secondary-gradient rounded py-3 px-4">
+                                    <i class="fab fa-android fa-3x text-white flex-shrink-0"></i>
+                                    <div class="ms-3">
+                                        <p class="text-white mb-0">Disponível na</p>
+                                        <h5 class="text-white mb-0">Play Store</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5" id="pricing">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-bold">Planos</h5>
+                    <h1 class="mb-5">Escolha o Melhor Plano</h1>
+                </div>
+                <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary-gradient rounded-pill mb-5">
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">Mensal</button>
+                        </li>
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="pill" href="#tab-2">Anual</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content text-start">
+                        
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4 justify-content-center">
+                                
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="bg-light rounded border">
+                                        <div class="border-bottom p-4 mb-4 text-center">
+                                            <h4 class="fw-bold mb-1">Plano Básico</h4>
+                                            <span>Plano grátis</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3 text-center">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">R$</small>00,00<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Mês</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>Acesso às lições básicas</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>1 Perfil de Criança</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span class="text-muted">Anúncios segmentados</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="text-center">
+                                                <a href="" class="btn btn-outline-primary rounded-pill py-2 px-5 mt-4">Gratuito</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="bg-light rounded border border-2 border-primary position-relative shadow">
+                                        <div class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-primary-gradient px-3 py-2">
+                                            MAIS POPULAR
+                                        </div>
+                                        <div class="border-bottom p-4 mb-4 text-center">
+                                            <h4 class="text-primary-gradient mb-1">BooPro</h4>
+                                            <span>Plano Premium</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3 text-center">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">R$</small>39,90<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Mês</small>
+                                            </h1>
+                                            <div class="d-flex justify-content-between mb-3"><span>Acesso Ilimitado às lições</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Pefis de crianças ilimitados</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Bloqueio de anúncios</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Avatares exclusivos</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>Cancele quando quiser</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                            <div class="text-center">
+                                                <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-5 mt-4">Assinar Premium</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="tab-2" class="tab-pane fade p-0">
+                            <div class="row g-4 justify-content-center">
+                                
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="bg-light rounded border border-2 border-secondary position-relative shadow">
+                                        <div class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary-gradient px-3 py-2">
+                                            MELHOR OFERTA
+                                        </div>
+                                        <div class="border-bottom p-4 mb-4 text-center">
+                                            <h4 class="text-secondary-gradient mb-1">BooPro Anual</h4>
+                                            <span>Economize 25%</span>
+                                        </div>
+                                        <div class="p-4 pt-0">
+                                            <h1 class="mb-3 text-center">
+                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">R$</small>29,90<small
+                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Mês</small>
+                                            </h1>
+                                            <p class="text-center text-muted mb-4">Pagamento único de R$ 358,80</p>
+                                            
+                                            <div class="d-flex justify-content-between mb-3"><span>Tudo do Plano Premium</span><i class="fa fa-check text-secondary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-3"><span>Maior economia</span><i class="fa fa-check text-secondary-gradient pt-1"></i></div>
+                                            <div class="d-flex justify-content-between mb-2"><span>História extra</span><i class="fa fa-check text-secondary-gradient pt-1"></i></div>
+                                            <div class="text-center">
+                                                <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-5 mt-4">Garantir Desconto</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5" id="review">
+            <div class="container py-5 px-lg-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="text-primary-gradient fw-bold">Reviews</h5>
+                    <h1 class="mb-5">O que os pais dizem!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/bolsonara.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Michelle B.</h5>
+                                <p class="mb-1">Mãe do Renan (8 anos)</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Incrível! Meu filho pede para 'jogar' liuboo todo dia. A compreensão dele melhorou muito em apenas um mês de uso."</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/gustavolima.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Gustavo L.</h5>
+                                <p class="mb-1">Pai do Milo (10 anos)</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">"O modo história prende a atenção dele. Ele adora colecionar os avatares e eu adoro ver o progresso dele no relatório semanal."</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/fodrigoraro.jpg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Rodrigo F.</h5>
+                                <p class="mb-1">Pai da Helena (9 anos)</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">"A Helena tinha vergonha de falar nas aulas de inglês. O LiuBoo ajudou ela a soltar a língua com os exercícios de pronúncia. Hoje ela é a primeira a levantar a mão na escola!"</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <div class="d-flex align-items-center mb-4">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/minnie.jpeg" style="width: 85px; height: 85px;">
+                            <div class="ms-4">
+                                <h5 class="mb-1">Thiago M.</h5>
+                                <p class="mb-1">Pai do Yuri (7 anos)</p>
+                                <div>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                    <small class="fa fa-star text-warning"></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0">"Finalmente um app seguro. Posso deixar ele usar no tablet sem preocupação nenhuma. Recomendo para todos os pais!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5 px-lg-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-3">
+                        <h4 class="text-white mb-4">Endereço</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Praça Miguel Ortega,s 135</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>(11) 95826-4391</p>
+                        <p><i class="fa fa-envelope me-3"></i>liuboo.app@gmail.com</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href="https://linktr.ee/LiuBoo?utm_source=qr_code"><i class="fa fa-info"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/liuboo_app/?igsh=dGQ3eGQzaml3aTg3#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-lg-5">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy;LiuBoo, Todos os direitos reservados. 
+                        </br>
+                            Designed By Thais Barbosa e Yuri Aguilera
+                            </br>
+                            Distributed By Equipe Liuboo
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                                <a href="">Início</a>
+                                <a href="">Cookies</a>
+                                <a href="">Ajuda</a>
+                                <a href="">FAQ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
